@@ -1,0 +1,617 @@
+2024-03-11 14:43:18 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-11 14:43:18 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 14:43:18 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 14:43:19 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 14:43:19 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 14:44:07 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 14:44:07 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 14:44:10 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 14:44:10 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 14:44:10 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 14:44:12 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 14:44:12 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 14:44:48 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 14:44:48 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 14:44:48 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 14:44:49 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 14:44:49 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 14:50:49 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:50:49] "GET / HTTP/1.1" 200 -
+2024-03-11 14:50:49 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:50:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-11 15:05:18 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:05:18 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:05:18 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:05:19 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:05:19 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:07:46 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:07:46] "GET / HTTP/1.1" 200 -
+2024-03-11 15:09:31 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:09:31 ISTERROR:root:Error: list index out of range
+2024-03-11 15:09:31 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:09:31] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:10:35 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:10:35 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:10:35 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:10:37 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:10:37 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:11:03 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:11:03 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:11:04 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:11:04 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:11:06 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:11:06 ISTERROR:root:Error: list index out of range
+2024-03-11 15:11:06 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:11:06] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:12:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:12:38 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:13:39 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:13:39 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:13:39 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:13:40 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:13:40 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:13:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:13:52 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:13:54 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:13:54 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:13:56 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:13:56 ISTERROR:root:Error: list index out of range
+2024-03-11 15:13:56 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:13:56] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:15:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:15:38 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:15:41 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:15:41 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:15:41 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:15:43 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:15:43 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:15:43 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:15:43 ISTERROR:root:Error: list index out of range
+2024-03-11 15:15:44 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:15:44] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:17:08 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:17:09 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:17:10 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:17:10 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:17:16 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:17:16 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:17:16 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:17:17 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:17:17 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:17:20 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:17:20 ISTERROR:root:Error: list index out of range
+2024-03-11 15:17:20 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:17:20] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:17:57 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:17:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:18:01 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:18:01 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:18:01 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:18:02 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:18:02 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:18:04 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:18:04 ISTERROR:root:Error: list index out of range
+2024-03-11 15:18:04 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:18:04] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:18:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:18:38 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:18:41 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:18:41 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:18:41 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:18:43 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:18:43 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:18:44 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:18:44 ISTERROR:root:Error: list index out of range
+2024-03-11 15:18:44 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:18:44] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:19:17 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:19:17 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:19:17 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:19:18 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:19:18 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:19:20 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:19:20 ISTERROR:root:Error: list index out of range
+2024-03-11 15:19:20 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:19:20] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:19:35 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:19:35 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:19:39 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:19:39 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:19:39 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:19:40 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:19:40 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:19:44 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:19:44 ISTERROR:root:Error: list index out of range
+2024-03-11 15:19:44 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:19:44] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:19:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:19:56 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:19:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:19:58 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:19:58 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:19:58 ISTINFO:root:image_database: {'65ddd930335778f32ade7c85': []}
+2024-03-11 15:19:58 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:19:58] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:23:50 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:23:50 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:23:51 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:23:51 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:25:17 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:25:17 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:25:17 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:25:18 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:25:18 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:25:19 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:25:19 ISTERROR:root:Error: list index out of range
+2024-03-11 15:25:19 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:25:19] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:26:05 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:26:08 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:26:08 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:26:08 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:26:09 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:26:09 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:26:12 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:26:12 ISTERROR:root:Error: list index out of range
+2024-03-11 15:26:12 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:26:12] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:26:30 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:26:30 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:26:30 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:26:31 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:26:31 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:26:44 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:26:44 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:26:45 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:26:45 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:26:51 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:26:51 ISTERROR:root:Error: list index out of range
+2024-03-11 15:26:51 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:26:51] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:27:06 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:27:06 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:27:07 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:27:07 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:27:07 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:27:07 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:27:07] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:27:54 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:27:54 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:27:56 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:27:56 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:27:56 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:27:57 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:27:57] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:30:03 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:30:03 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:30:07 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:30:07 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:30:07 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:30:08 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:30:08 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:30:10 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:30:11 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:30:11] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:32:07 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:32:07 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:32:08 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:32:08 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:32:11 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:32:11 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:32:11 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:32:13 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:32:13 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:32:14 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:32:14 ISTERROR:root:Error: list index out of range
+2024-03-11 15:32:14 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:32:14] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:33:13 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:33:13 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:33:17 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:33:17 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:33:17 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:33:18 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:33:18 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:33:24 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:33:24 ISTERROR:root:Error: list index out of range
+2024-03-11 15:33:24 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:33:24] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:33:43 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:33:43 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:33:44 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:33:44 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:33:44 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:33:44 ISTERROR:root:Error: list index out of range
+2024-03-11 15:33:44 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:33:44] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:34:57 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:34:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:35:01 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:35:01 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:35:01 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:35:03 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:35:03 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:35:22 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:35:22 ISTERROR:root:Error: list index out of range
+2024-03-11 15:35:22 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:35:22] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:38:52 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:38:52 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:38:52] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:39:49 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:39:49 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:39:49] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:40:48 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:40:49 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:40:49] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:42:18 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:42:19 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:42:20 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:42:20 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:42:21 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:42:22 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:42:22] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:43:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:43:19 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:43:21 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:43:21 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:44:57 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:44:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:44:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:44:58 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:47:47 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:47:47 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:47:48 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:47:48 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:50:01 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:50:01 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:50:05 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 15:50:05 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 15:50:05 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:50:06 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:50:06 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:50:11 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:50:11 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:50:11] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:52:12 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:52:12 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:52:12] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:52:58 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:52:58 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:52:59 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:52:59 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:55:11 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:55:11 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:55:12 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:55:12 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:55:14 ISTINFO:root:response: <Response [200]>
+2024-03-11 15:55:14 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:55:14] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 15:58:43 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:58:43 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:58:44 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:58:44 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 15:59:54 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 15:59:54 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 15:59:55 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 15:59:55 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:00:21 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:00:21 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:03:56 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:03:56 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:03:56 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:03:57 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:03:57 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:04:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:04:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:04:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:04:58 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:04:58 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:04:58 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:04:58] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:28:36 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:28:38 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:28:38] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:29:11 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:29:11 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:29:11] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:30:09 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:30:09 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:30:10 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:30:10 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:30:13 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:30:13 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:30:13] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:30:54 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:30:54 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:30:57 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:30:57 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:30:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:30:59 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:30:59 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:31:06 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:31:06 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:31:06] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:32:25 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:32:25 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:32:28 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:32:28 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:32:28 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:32:29 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:32:29 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:32:31 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:32:31 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:32:31] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:32:57 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:32:57 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:32:57] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:33:43 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:33:43 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:33:43] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:40:44 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:40:44 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:40:47 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:40:47 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:40:47 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:40:49 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:40:49 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:40:54 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:40:54 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:40:54] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:42:20 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:42:20 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:42:21 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:42:21 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:42:47 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:42:47 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:42:48 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:42:48 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:42:48 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:42:49 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:42:49] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:43:03 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:43:03 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:43:03] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:43:35 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:43:35 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:43:35] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:44:49 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:44:49 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:44:51 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:44:51 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:44:53 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:44:53 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:44:53] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:45:34 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:45:34 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:45:35 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:45:35 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:45:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:45:56 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:45:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:45:58 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:46:00 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:46:00 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:46:00 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:46:02 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:46:02 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:46:24 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:46:24 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:46:24] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:46:59 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:46:59 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:47:00 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:47:00 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:47:17 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:47:17 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:47:17] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:49:06 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:49:06 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:49:07 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:49:07 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:49:18 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:49:18 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:49:18 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:49:20 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:49:20 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:49:21 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:49:22 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:49:22] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:49:51 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:49:51 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:49:52 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:49:52 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:50:57 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:50:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:51:00 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:51:00 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:51:00 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:51:01 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:51:01 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:51:05 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:51:05 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:51:05] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:51:55 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:51:55 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:51:59 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:51:59 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:51:59 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:52:00 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:52:00 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:52:02 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:52:02 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:52:02] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:53:17 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:53:17 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:53:20 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:53:20 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:53:20 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:53:21 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:53:21 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:53:23 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:53:23 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:53:23] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:54:15 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:54:15 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:54:19 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:54:19 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:54:19 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:54:20 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:54:20 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:54:22 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:54:22 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:54:22] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:55:12 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:55:12 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:55:14 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:55:14 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:55:14 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:55:14 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:55:14] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:55:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:55:53 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:55:54 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:55:54 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:55:56 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:55:56 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:55:56] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:56:37 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:56:37 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:56:38 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:56:38 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:56:38 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:56:39 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:56:39] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:57:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:57:52 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:57:54 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:57:54 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:58:06 ISTINFO:root:response: <Response [200]>
+2024-03-11 16:58:06 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 16:58:06] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 16:58:58 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 16:58:58 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:59:00 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:59:00 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 16:59:06 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 16:59:06 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 16:59:06 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 16:59:08 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 16:59:08 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 17:00:07 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:00:08 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:00:08] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:00:28 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:00:28 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:00:28] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:01:26 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:01:28 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:01:28] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:02:53 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 17:02:53 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:02:54 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 17:02:54 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 17:02:57 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 17:02:57 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 17:02:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:02:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 17:02:58 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 17:03:00 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:03:02 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:03:02] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:11:06 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:11:06 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:11:06] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:11:34 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:11:35 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:11:35] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:13:35 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:13:35 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:13:35] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:13:51 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:13:52 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:13:52] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:38:15 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:38:17 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:38:17] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:44:10 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 17:44:10 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:48:29 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 17:48:29 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 17:48:29 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:48:30 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 17:48:30 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 17:48:36 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:48:37 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:48:37] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:58:08 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 17:58:09 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:58:10 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 17:58:10 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 17:58:27 ISTINFO:root:response: <Response [200]>
+2024-03-11 17:58:29 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 17:58:29] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 17:58:39 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 17:58:39 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 17:58:40 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 17:58:40 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 18:00:57 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 18:00:57 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 18:00:59 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 18:00:59 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 18:01:03 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 18:01:03 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 18:01:03 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 18:01:04 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 18:01:04 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 18:01:11 ISTINFO:root:response: <Response [200]>
+2024-03-11 18:01:14 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 18:01:14] "POST /recognize_face HTTP/1.1" 200 -
+2024-03-11 18:02:06 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_match_api/app.py', reloading
+2024-03-11 18:02:06 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 18:02:08 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 18:02:08 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 18:02:15 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-11 18:02:15 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-11 18:02:15 ISTINFO:werkzeug: * Restarting with stat
+2024-03-11 18:02:16 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-11 18:02:16 ISTINFO:werkzeug: * Debugger PIN: 127-395-510
+2024-03-11 18:02:28 ISTINFO:root:response: <Response [200]>
+2024-03-11 18:02:31 ISTINFO:werkzeug:127.0.0.1 - - [11/Mar/2024 18:02:31] "POST /recognize_face HTTP/1.1" 200 -
