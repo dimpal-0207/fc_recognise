@@ -61,6 +61,8 @@ def take_encodings_image(user_id):
             image_np = cv2.imdecode(np.frombuffer(binary_data, dtype=np.uint8), cv2.IMREAD_COLOR)
             # Check if a face is detected in the image
             encoding_kn = face_recognition.face_encodings(image_np)[0]
+            logging.info('face encodings length of known encoding : %s', len(encoding_kn))
+
             known_face_encodings.append(encoding_kn)
 
             # known_face_encodings[user_id] = {"user_name" :  user_name, "encoding": encoding_kn}
@@ -83,45 +85,57 @@ def recognize_face():
     try:
         # Load the image from the request
         file = request.files['image']
-        print("===file", file)
+        print("===>file", file)
+        logging.info('file of unknown image : %s', file)
+
         user_id = request.form.get('user_id')
         print("-----userid", user_id)
+        logging.info('user_id : %s', user_id)
         take_encodings_image(user_id)
 
         unknown_image = face_recognition.load_image_file(file)
-        # Find all the faces and face encodings in the unknown image
+        # print("====>unknown image", unknown_image)
+        # # Find all the faces and face encodings in the unknown image
         face_locations = face_recognition.face_locations(unknown_image)
-        print(face_locations)
+        print("---->face location", face_locations)
         face_encodings = face_recognition.face_encodings(unknown_image, face_locations)
-        print("------faceencoding", len(face_encodings))
-        # Loop through each face found in the unknown image
-        results = []
-        #
-        for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
-            # See if the face is a match for the known face(s)
-            matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
-            print("matches", matches)
-            name = "Unknown"
+        print("------>faceencoding", len(face_encodings))
+        logging.info('face encodings length of unknown encoding: %s', len(face_encodings))
 
-            # Or instead, use the known face with the smallest distance to the new face
-            face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
-            print("====>facedistance", face_distances)
-            best_match_index = np.argmin(face_distances)
-            if matches[best_match_index]:
-                name = known_face_names[best_match_index]
-                print(name)
-                results.append({'name': name, "user_id": user_id,'is_known': True, 'status_code': 200, 'status': 'success',
-                                'message': 'Match Found!'})
-            else:
+        if len(face_encodings) > 0:
+            # Loop through each face found in the unknown image
+            results = []
+            #
+            for (top, right, bottom, left), face_encoding in zip(face_locations, face_encodings):
+                # See if the face is a match for the known face(s)
+                matches = face_recognition.compare_faces(known_face_encodings, face_encoding)
+                print("---->matches", matches)
+                logging.info('matched result: %s', matches)
 
-                results.append({'name': name, 'is_known': False, 'status_code': 200, 'status': 'success',
-                                'message': 'Match not found.'})
+                name = "Unknown"
 
-        return jsonify({'results': results})
+                # Or instead, use the known face with the smallest distance to the new face
+                face_distances = face_recognition.face_distance(known_face_encodings, face_encoding)
+                print("====>facedistance", face_distances)
+                best_match_index = np.argmin(face_distances)
+                if matches[best_match_index]:
+                    name = known_face_names[best_match_index]
+                    print(name)
+                    logging.info('name of matched face : %s', name)
+
+                    results.append({'name': name, "user_id": user_id,'is_known': True, 'status_code': 200, 'status': 'success', 'message': 'Match Found!'})
+
+                else:
+                    results.append({'name': name, 'is_known': False, 'status_code': 400, 'status': 'fail',
+                                    'message': 'Match not found.'})
+
+            logging.info('final response of results : %s', results)
+            return jsonify({'results': results})
+        else:
+            return jsonify({'error': "Does not get face Encoding", 'status': 400})
 
     except Exception as e:
         return jsonify({'error': str(e)})
-
 
 
 if __name__ == '__main__':
