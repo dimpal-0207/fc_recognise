@@ -65,6 +65,10 @@ def take_encodings_image(user_id):
 
             known_face_encodings.append(encoding_kn)
 
+            #addition for new approach as deepface can check with two images
+            known_path = f'images/known_{user_id}.jpg'
+            os.makedirs(os.path.dirname(known_path), exist_ok=True)
+            cv2.imwrite(known_path, image_np)
             # known_face_encodings[user_id] = {"user_name" :  user_name, "encoding": encoding_kn}
             print("====known_face_encoding", known_face_encodings)
             # if user_id in image_database:
@@ -136,6 +140,59 @@ def recognize_face():
 
     except Exception as e:
         return jsonify({'error': str(e)})
+
+
+
+
+
+from deepface import DeepFace
+# Specify the desired width and height
+width = 640  # Set your desired width
+height = 480  # Set your desired height
+# working=====>
+@app.route('/deep_face_check', methods=["POST"])
+def deep_fc():
+    file = request.files['image']
+    print("===>file", file)
+    logging.info('file of unknown image : %s', file)
+    user_id = request.form.get('user_id')
+    print("-----userid", user_id)
+    logging.info('user_id : %s', user_id)
+
+    take_encodings_image(user_id)
+    try:
+        image = cv2.imdecode(np.frombuffer(file.read(), np.uint8), cv2.IMREAD_COLOR)
+        live_frame_path = f'images/file1_{user_id}.jpg'
+        os.makedirs(os.path.dirname(live_frame_path), exist_ok=True)
+        # Write the image to the local directory
+        cv2.imwrite(live_frame_path, image)
+
+        # Proceed with face recognition if not spoofed
+        known_image_path = f'images/known_{user_id}.jpg'
+        # Pass the image path to DeepFace.verify
+        custom_threshold = 0.4
+        result_recognition = DeepFace.verify(img1_path=known_image_path , img2_path=live_frame_path, model_name='Facenet', distance_metric='cosine', enforce_detection=False )
+        print("result_recognition", result_recognition)
+    # Your logic to handle the result
+        if result_recognition['distance'] < custom_threshold:
+            result_recognition['verified'] = True
+            result = {'matched': True, 'user_id': user_id, 'message': 'Match Found!!','user': user_id}
+            print(result)
+            return result
+        else:
+            result_recognition['verified'] = False
+            result = {'matched': False, 'user_id': "Unknown!", 'message': 'not match with db image!!'}
+            return result
+
+    # Emit the result to the client
+    #     sio.emit('face_recognition_result', result, room=sid)
+
+    # Remove the temporary image file
+        os.remove(live_frame_path)
+        os.remove(known_path)
+    except  Exception as e:
+        print(f"error: {e}")
+
 
 
 if __name__ == '__main__':

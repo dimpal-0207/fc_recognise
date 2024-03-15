@@ -217,3 +217,254 @@
 2024-03-12 15:30:08 ISTINFO:werkzeug: * Restarting with stat
 2024-03-12 15:30:09 ISTWARNING:werkzeug: * Debugger is active!
 2024-03-12 15:30:09 ISTINFO:werkzeug: * Debugger PIN: 481-930-445
+2024-03-13 13:24:20 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-13 13:24:20 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-13 13:24:20 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 13:24:21 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 13:24:21 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 15:01:19 ISTINFO:werkzeug:127.0.0.1 - - [13/Mar/2024 15:01:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-13 16:23:08 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 16:23:08 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 16:23:09 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 16:23:09 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 16:25:33 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 16:25:33 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:14:53 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-13 17:14:53 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-13 17:14:53 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:14:56 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:14:56 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 17:15:04 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 17:15:04 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:15:07 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:15:07 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 17:16:16 ISTINFO:werkzeug:192.168.0.120 - - [13/Mar/2024 17:16:16] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-13 17:16:31 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 17:16:36 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-13 17:16:36 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-13 17:16:36 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:16:39 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:16:39 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 17:16:40 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-13 17:16:40 ISTINFO:root:user_id : 65e99c695d21086807bbb860
+2024-03-13 17:16:40 ISTINFO:root:response: <Response [200]>
+2024-03-13 17:16:42 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-13 17:17:11 ISTINFO:werkzeug:192.168.0.120 - - [13/Mar/2024 17:17:11] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-13 17:17:48 ISTINFO:root:file of unknown image : <FileStorage: 'onu.jpg' ('image/jpeg')>
+2024-03-13 17:17:48 ISTINFO:root:user_id : 65e99c695d21086807bbb860
+2024-03-13 17:17:49 ISTINFO:root:response: <Response [200]>
+2024-03-13 17:17:50 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-13 17:17:51 ISTINFO:werkzeug:192.168.0.120 - - [13/Mar/2024 17:17:51] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-13 17:19:11 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 17:19:11 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:19:14 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:19:14 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 17:22:20 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-13 17:22:21 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:22:24 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:22:24 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-13 17:25:20 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-13 17:25:20 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-13 17:25:20 ISTINFO:werkzeug: * Restarting with stat
+2024-03-13 17:25:23 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-13 17:25:23 ISTINFO:werkzeug: * Debugger PIN: 645-113-900
+2024-03-14 10:21:44 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-14 10:21:46 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-14 10:21:46 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-14 10:21:46 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-14 10:21:48 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-14 10:21:49 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-14 10:21:49 ISTINFO:werkzeug: * Debugger PIN: 135-808-570
+2024-03-14 10:24:36 ISTINFO:root:file of unknown image : <FileStorage: '1704709144867_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:24:36 ISTINFO:root:user_id : 65de1f6ef68372081eb75e5b
+2024-03-14 10:24:36 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:24:37 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:24:39 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:24:39] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:24:59 ISTINFO:root:file of unknown image : <FileStorage: '05cf2573-e641-4a29-9688-938ddc469a59_ab03d547.webp' ('image/webp')>
+2024-03-14 10:24:59 ISTINFO:root:user_id : 65de1f6ef68372081eb75e5b
+2024-03-14 10:24:59 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:24:59 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:25:01 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:25:01] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:25:29 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:25:29 ISTINFO:root:user_id : 65de1f6ef68372081eb75e5b
+2024-03-14 10:25:29 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:25:29 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:25:30 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:25:30] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:26:46 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:26:46 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:26:46 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:26:47 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:26:47 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:26:47] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:27:01 ISTINFO:root:file of unknown image : <FileStorage: '1704709144867_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:27:01 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:27:01 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:27:02 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:27:02 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:27:02] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:27:14 ISTINFO:root:file of unknown image : <FileStorage: '1704780455076_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:27:14 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:27:14 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:27:14 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:27:15 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:27:15] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:27:28 ISTINFO:root:file of unknown image : <FileStorage: 'A-picture-of-Manoj-Kumar-Sharma-IPS.jpg' ('image/jpeg')>
+2024-03-14 10:27:28 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:27:28 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:27:29 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:27:29 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:27:29] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:27:42 ISTINFO:root:file of unknown image : <FileStorage: '1705470107855_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:27:42 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:27:42 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:27:42 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:27:43 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:27:43] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:27:52 ISTINFO:root:file of unknown image : <FileStorage: 'qrcode.png' ('image/png')>
+2024-03-14 10:27:52 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:27:52 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:27:52 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:27:53 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:27:53] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:28:01 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:28:01 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:28:01 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:28:02 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:28:02 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:28:02] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:28:05 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:28:05 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:28:05 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:28:05 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:28:06 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:28:06] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:28:53 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:28:53 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:28:53 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:28:54 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:28:54 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:28:54] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:29:04 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:29:04 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:29:04 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:29:04 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:29:05 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:29:05] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:47:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-14 10:47:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-14 10:47:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-14 10:47:07 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-14 10:47:08 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-14 10:47:08 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-14 10:47:08 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-14 10:47:10 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-14 10:47:11 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-14 10:47:11 ISTINFO:werkzeug: * Debugger PIN: 135-808-570
+2024-03-14 10:50:06 ISTINFO:root:file of unknown image : <FileStorage: '1709809502497_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:50:06 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:50:06 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:50:06 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:50:09 ISTINFO:werkzeug:192.168.0.120 - - [14/Mar/2024 10:50:09] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:51:01 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:51:01 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:51:01 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:51:01 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:51:02 ISTINFO:werkzeug:192.168.0.120 - - [14/Mar/2024 10:51:02] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:51:54 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:51:54 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:51:54 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:51:54 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:51:55 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:51:55] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:52:04 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:52:04 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:52:04 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:52:04 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:52:05 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:52:05] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:53:46 ISTINFO:root:file of unknown image : <FileStorage: '05cf2573-e641-4a29-9688-938ddc469a59_ab03d547.webp' ('image/webp')>
+2024-03-14 10:53:46 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:53:46 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:53:46 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:53:47 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:53:47] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:54:03 ISTINFO:root:file of unknown image : <FileStorage: 'R8Cm3.jpg' ('image/jpeg')>
+2024-03-14 10:54:03 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:54:03 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:54:03 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:54:04 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:54:04] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:54:24 ISTINFO:root:file of unknown image : <FileStorage: '1705470107855_faceData.jpg' ('image/jpeg')>
+2024-03-14 10:54:24 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:54:24 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:54:24 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:54:25 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:54:25] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:54:37 ISTINFO:root:file of unknown image : <FileStorage: 'MV5BNDY5YWMzOWEtNTVhZi00NTdmLWIxNGItN2Q5ZmIxNGRkZDYyXkEyXkFqcGdeQXVyMTYzMTU3Njgx._V1_.jpg' ('image/jpeg')>
+2024-03-14 10:54:37 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:54:37 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:54:37 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:54:41 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:54:41] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 10:55:18 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-14 10:55:18 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 10:55:18 ISTINFO:root:response: <Response [200]>
+2024-03-14 10:55:18 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 10:55:19 ISTINFO:werkzeug:192.168.0.100 - - [14/Mar/2024 10:55:19] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:13:29 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:13:29 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:13:29 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:13:30 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:13:30 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:13:30] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:13:45 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:13:45 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:13:45 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:13:46 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:13:46 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:13:46] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:13:53 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:13:53 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:13:53 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:13:53 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:13:54 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:13:54] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:13:59 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:13:59 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:13:59 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:13:59 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:14:00 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:14:00] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:14:09 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:14:09 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:14:09 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:14:10 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:14:10 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:14:10] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:14:19 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:14:19 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:14:19 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:14:20 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:14:20 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:14:20] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:24:15 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:24:15 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:24:16 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:24:16 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:24:17 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:24:17] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:24:26 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:24:26 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:24:26 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:24:26 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:24:27 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:24:27] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:24:36 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:24:36 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:24:36 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:24:36 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:24:37 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:24:37] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:26:41 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:26:41 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:26:41 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:26:41 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:26:42 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:26:42] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-14 15:26:51 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-14 15:26:51 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-14 15:26:51 ISTINFO:root:response: <Response [200]>
+2024-03-14 15:26:51 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-14 15:26:52 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:26:52] "POST /deep_face_check HTTP/1.1" 200 -
