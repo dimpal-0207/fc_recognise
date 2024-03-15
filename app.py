@@ -197,10 +197,7 @@ def deep_fc():
     except  Exception as e:
         print(f"error: {e}")
 
-    finally:
-        # Remove the temporary image files
-        os.remove(live_frame_path)
-        os.remove(known_image_path)
+
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5001)
