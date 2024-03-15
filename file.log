@@ -468,3 +468,68 @@
 2024-03-14 15:26:51 ISTINFO:root:response: <Response [200]>
 2024-03-14 15:26:51 ISTINFO:root:face encodings length of known encoding : 128
 2024-03-14 15:26:52 ISTINFO:werkzeug:192.168.0.24 - - [14/Mar/2024 15:26:52] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-15 10:12:40 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 10:12:46 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-15 10:12:46 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-15 10:12:46 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-15 10:12:47 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 10:12:49 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 10:12:49 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 14:40:22 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-15 14:40:22 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-15 14:40:22 ISTINFO:root:response: <Response [200]>
+2024-03-15 14:40:22 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-15 14:40:25 ISTINFO:werkzeug:192.168.0.120 - - [15/Mar/2024 14:40:25] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-15 14:42:26 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:42:27 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:42:27 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:42:28 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-15 14:42:29 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 14:42:31 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 14:42:31 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 14:50:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:50:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:50:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:50:30 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-15 14:50:31 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 14:50:33 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 14:50:33 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 14:51:14 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-15 14:51:14 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-15 14:51:14 ISTINFO:root:response: <Response [200]>
+2024-03-15 14:51:15 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-15 14:51:17 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.3836942507899841, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 222, 'y': 429, 'w': 478, 'h': 478, 'left_eye': (143, 194), 'right_eye': (337, 196)}}, 'time': 2.64}
+2024-03-15 14:51:17 ISTINFO:werkzeug:192.168.0.120 - - [15/Mar/2024 14:51:17] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-15 14:51:45 ISTINFO:root:file of unknown image : <FileStorage: 'ImportedPhoto_1710236501449.jpg' ('image/jpeg')>
+2024-03-15 14:51:45 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-15 14:51:46 ISTINFO:root:response: <Response [200]>
+2024-03-15 14:51:46 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-15 14:51:47 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.3836942507899841, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 222, 'y': 429, 'w': 478, 'h': 478, 'left_eye': (143, 194), 'right_eye': (337, 196)}}, 'time': 1.03}
+2024-03-15 14:51:47 ISTINFO:werkzeug:192.168.0.120 - - [15/Mar/2024 14:51:47] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-15 14:52:09 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-15 14:52:09 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-15 14:52:09 ISTINFO:root:response: <Response [200]>
+2024-03-15 14:52:09 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-15 14:52:11 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8102360755045884, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 605, 'y': 211, 'w': 484, 'h': 484, 'left_eye': (150, 171), 'right_eye': (354, 208)}}, 'time': 2.07}
+2024-03-15 14:52:11 ISTINFO:werkzeug:192.168.0.120 - - [15/Mar/2024 14:52:11] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-15 14:56:01 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:56:01 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:56:01 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 14:56:02 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-15 14:56:04 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 14:56:06 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 14:56:06 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 15:00:04 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 15:00:04 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 15:00:04 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-15 15:00:05 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-15 15:00:07 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 15:00:09 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 15:00:09 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 15:00:20 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 15:00:22 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 15:00:22 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-15 15:02:20 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.

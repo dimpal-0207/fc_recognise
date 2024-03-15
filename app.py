@@ -153,10 +153,14 @@ height = 480  # Set your desired height
 @app.route('/deep_face_check', methods=["POST"])
 def deep_fc():
     file = request.files['image']
+    if not file:
+        return jsonify({"status":400, "message": "Please provide image file!"})
     print("===>file", file)
     logging.info('file of unknown image : %s', file)
     user_id = request.form.get('user_id')
     print("-----userid", user_id)
+    if not user_id:
+        return jsonify({"status":400, "message": 'Please provide user_id'})
     logging.info('user_id : %s', user_id)
 
     take_encodings_image(user_id)
@@ -173,27 +177,30 @@ def deep_fc():
         custom_threshold = 0.4
         result_recognition = DeepFace.verify(img1_path=known_image_path , img2_path=live_frame_path, model_name='Facenet', distance_metric='cosine', enforce_detection=False )
         print("result_recognition", result_recognition)
+        logging.info('result_recognition in deepface api : %s', result_recognition)
     # Your logic to handle the result
         if result_recognition['distance'] < custom_threshold:
             result_recognition['verified'] = True
-            result = {'matched': True, 'user_id': user_id, 'message': 'Match Found!!','user': user_id}
+            result = {'matched': True, 'user_id': user_id, 'message': 'Match Found!!','user': user_id, 'status': 200}
             print(result)
             return result
         else:
             result_recognition['verified'] = False
-            result = {'matched': False, 'user_id': "Unknown!", 'message': 'not match with db image!!'}
+            result = {'matched': False, 'user_id': "Unknown!", 'message': 'not match with db image!!', 'status': 400}
             return result
 
     # Emit the result to the client
     #     sio.emit('face_recognition_result', result, room=sid)
 
     # Remove the temporary image file
-        os.remove(live_frame_path)
-        os.remove(known_path)
+
     except  Exception as e:
         print(f"error: {e}")
 
-
+    finally:
+        # Remove the temporary image files
+        os.remove(live_frame_path)
+        os.remove(known_image_path)
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5001)
