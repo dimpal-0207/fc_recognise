@@ -533,3 +533,524 @@
 2024-03-15 15:00:22 ISTWARNING:werkzeug: * Debugger is active!
 2024-03-15 15:00:22 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
 2024-03-15 15:02:20 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-15 15:02:22 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-15 15:02:22 ISTINFO:werkzeug: * Debugger PIN: 368-326-814
+2024-03-18 10:01:01 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:01:07 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 10:01:07 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 10:01:07 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:01:09 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:01:10 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:01:10 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:01:20 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:01:20 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:01:20 ISTINFO:root:response: <Response [200]>
+2024-03-18 10:01:21 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 10:01:24 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8102360755045884, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 605, 'y': 211, 'w': 484, 'h': 484, 'left_eye': (150, 171), 'right_eye': (354, 208)}}, 'time': 3.54}
+2024-03-18 10:01:24 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:01:24] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:40:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:40:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:40:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:40:02 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:40:03 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:40:04 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:40:04 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:41:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:18 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:41:19 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:41:21 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:41:21 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:41:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:29 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:31 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:41:32 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:41:33 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:41:33 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:41:59 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:59 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:41:59 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:42:01 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:42:02 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:42:04 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:42:04 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:42:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:42:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:42:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:42:32 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:42:33 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:42:35 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:42:35 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:44:40 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:44:40 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:44:40 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:44:41 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:44:43 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:44:44 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:44:44 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:45:12 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:45:12 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:45:12 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:45:13 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:45:15 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:45:16 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:45:16 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:47:20 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:47:20 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:47:20 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:47:21 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:47:21] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 10:47:39 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:47:39 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:47:39 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:47:41 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:47:42 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:47:44 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:47:44 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:47:44 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:47:44 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:47:44 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:47:46 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:47:46] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 10:48:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:00 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:01 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:48:03 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:48:04 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:48:04 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:48:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:48:24 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:48:26 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 10:48:26 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 10:48:26 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:48:27 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:48:28 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:48:28 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:48:29 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:48:29 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:48:29 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:48:30 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:48:30] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:49:45 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:49:45 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:49:45 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:49:45 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:49:45] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:49:50 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:49:50 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:49:50 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:49:50 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:49:50] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:49:52 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:49:52 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:49:53 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:49:53 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:49:53] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:50:43 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:50:43 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:50:43 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:50:45 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:50:46 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:50:48 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:50:48 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:52:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:52:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:52:38 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:52:39 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:52:40 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:52:42 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:52:42 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:52:49 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:52:49 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:52:49 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:52:51 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:52:51] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 10:57:23 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:23 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:23 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:24 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:57:28 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:57:30 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 10:57:30 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 10:57:30 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:57:31 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:57:33 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:57:33 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:57:44 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:44 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:44 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 10:57:46 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 10:57:47 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 10:57:49 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 10:57:49 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 10:57:49 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 10:57:49 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 10:57:49 ISTINFO:root:response: <Response [500]>
+2024-03-18 10:57:50 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 10:57:50] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:05:31 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:05:31 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:05:31 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:05:32 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 11:05:33 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 11:05:35 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 11:05:35 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 11:12:27 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:12:27 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:12:27 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 11:12:29 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 11:12:30 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 11:12:35 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 11:12:36 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 11:12:36 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 11:12:36 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 11:12:38 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 11:12:39 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 11:12:39 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 11:12:48 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:12:48 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 11:12:48 ISTINFO:root:response: <Response [200]>
+2024-03-18 11:12:48 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 11:12:52 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8102360755045884, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 605, 'y': 211, 'w': 484, 'h': 484, 'left_eye': (150, 171), 'right_eye': (354, 208)}}, 'time': 3.32}
+2024-03-18 11:12:52 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:12:52] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:13:04 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:13:04 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 11:13:04 ISTINFO:root:response: <Response [500]>
+2024-03-18 11:13:06 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8102360755045884, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 605, 'y': 211, 'w': 484, 'h': 484, 'left_eye': (150, 171), 'right_eye': (354, 208)}}, 'time': 1.79}
+2024-03-18 11:13:06 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:13:06] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:21:14 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 11:21:14 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 11:21:15 ISTINFO:root:response: <Response [200]>
+2024-03-18 11:21:15 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 11:21:16 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.1927517566211402, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 76, 'y': 168, 'w': 297, 'h': 297, 'left_eye': (88, 116), 'right_eye': (198, 120)}}, 'time': 0.74}
+2024-03-18 11:21:16 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:21:16] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:21:24 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 11:21:24 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 11:21:25 ISTINFO:root:response: <Response [200]>
+2024-03-18 11:21:25 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 11:21:26 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12067162790115393, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 96, 'y': 174, 'w': 293, 'h': 293, 'left_eye': (91, 104), 'right_eye': (205, 117)}}, 'time': 0.72}
+2024-03-18 11:21:26 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:21:26] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:23:29 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:23:29 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:23:29] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:26:33 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:26:33 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:26:33] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:26:41 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:26:41 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:26:41] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:27:01 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:27:01 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:27:01] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:27:14 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:27:14] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 11:27:40 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:27:40 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:27:40] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:28:22 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:28:22 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:28:22] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:29:52 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-18 11:29:52 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 11:29:52] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:31:58 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:31:58 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:31:58] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:32:03 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:32:03 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:32:03] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:32:09 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:32:09 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:32:09] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:32:17 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 11:32:17] "[31m[1mGET /deep_face_check HTTP/1.1[0m" 405 -
+2024-03-18 11:32:56 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 11:32:56] "[31m[1mGET /deep_face_check HTTP/1.1[0m" 405 -
+2024-03-18 11:32:59 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 11:32:59] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 11:33:16 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:33:16 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:33:16] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:33:37 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-18 11:33:37 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 11:33:37 ISTINFO:root:response: <Response [200]>
+2024-03-18 11:33:37 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 11:33:38 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.6512909380828411, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}}, 'time': 0.73}
+2024-03-18 11:33:38 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 11:33:38] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:33:51 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:33:51 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:33:51] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:03 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:34:03 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:34:03] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:10 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:10 ISTINFO:root:user_id : 65de2a99f68372081eb7653d
+2024-03-18 11:34:10 ISTINFO:root:response: <Response [500]>
+2024-03-18 11:34:12 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8102360755045884, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}, 'img2': {'x': 605, 'y': 211, 'w': 484, 'h': 484, 'left_eye': (150, 171), 'right_eye': (354, 208)}}, 'time': 1.76}
+2024-03-18 11:34:12 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:12] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:14 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:34:14 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:34:14] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:25 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:25 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:25] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:26 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:26 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:26] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:27 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:27 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:27] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:38 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:38 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:38] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:39 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:39 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:39] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:46 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.jpeg' ('image/jpeg')>
+2024-03-18 11:34:46 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:34:46] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:34:52 ISTINFO:root:file of unknown image : <FileStorage: 'test_prity.jpg' ('image/jpeg')>
+2024-03-18 11:34:52 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 11:34:53 ISTINFO:root:response: <Response [200]>
+2024-03-18 11:34:53 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 11:34:55 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.6726070407087563, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 31, 'y': 17, 'w': 55, 'h': 55, 'left_eye': None, 'right_eye': None}}, 'time': 1.73}
+2024-03-18 11:34:55 ISTINFO:werkzeug:192.168.0.120 - - [18/Mar/2024 11:34:55] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:35:03 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 11:35:03 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:35:03] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 11:35:11 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 11:35:11 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 11:35:11 ISTINFO:root:response: <Response [500]>
+2024-03-18 11:35:12 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12965784154655158, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 71, 'y': 211, 'w': 293, 'h': 293, 'left_eye': (95, 111), 'right_eye': (206, 115)}}, 'time': 0.68}
+2024-03-18 11:35:12 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 11:35:12] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:23:03 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:23:03 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:23:04 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:23:04 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:23:05 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.11947422197177715, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 146, 'y': 223, 'w': 239, 'h': 239, 'left_eye': (68, 92), 'right_eye': (158, 93)}}, 'time': 0.73}
+2024-03-18 12:23:05 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:23:05] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:23:30 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:23:30 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:23:35 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:23:35 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:23:36 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.22444666584006634, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 59, 'y': 226, 'w': 236, 'h': 236, 'left_eye': (69, 96), 'right_eye': (155, 92)}}, 'time': 0.72}
+2024-03-18 12:23:36 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:23:36] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:23:40 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:23:40 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:23:40 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:23:40 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:23:41 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.1516773001122631, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 62, 'y': 239, 'w': 226, 'h': 226, 'left_eye': (73, 81), 'right_eye': (154, 86)}}, 'time': 0.78}
+2024-03-18 12:23:41 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:23:41] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:23:50 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:23:50 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:23:50 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:23:50 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:23:51 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.6540796996600099, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 0.72}
+2024-03-18 12:23:51 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:23:51] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:00 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:00 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:00 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:01 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:01 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.9126199520083284, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 0.7}
+2024-03-18 12:24:01 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:01] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:10 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:10 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:10 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:11 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:11 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.16965677761091136, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 133, 'y': 250, 'w': 233, 'h': 233, 'left_eye': (68, 97), 'right_eye': (154, 99)}}, 'time': 0.73}
+2024-03-18 12:24:11 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:11] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:20 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:20 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:20 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:21 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:21 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.9031878964701731, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 0.69}
+2024-03-18 12:24:21 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:21] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:30 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:30 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:31 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:31 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:31 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.29006597486646135, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 191, 'y': 411, 'w': 243, 'h': 243, 'left_eye': (68, 98), 'right_eye': (163, 91)}}, 'time': 0.69}
+2024-03-18 12:24:31 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:31] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:40 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:40 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:40 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:40 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:41 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.285974603989375, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 201, 'y': 379, 'w': 232, 'h': 232, 'left_eye': (65, 95), 'right_eye': (158, 92)}}, 'time': 0.74}
+2024-03-18 12:24:41 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:41] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:24:50 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:24:50 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:24:50 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:24:51 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:24:51 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.45321586412980885, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 249, 'y': 387, 'w': 213, 'h': 213, 'left_eye': (55, 82), 'right_eye': (151, 91)}}, 'time': 0.7}
+2024-03-18 12:24:51 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:24:51] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:26:13 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:26:13 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:26:14 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:26:14 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:26:14 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.15540249142172213, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 109, 'y': 228, 'w': 231, 'h': 231, 'left_eye': (72, 92), 'right_eye': (155, 94)}}, 'time': 0.74}
+2024-03-18 12:26:14 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:26:14] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:33:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:33:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:33:30 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:33:31 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:33:33 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:33:34 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:33:34 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:36:51 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:36:51 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:36:51 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:36:51 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:36:53 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:36:53 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:36:53 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:36:53 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:36:54 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.846919963194781, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 2.69}
+2024-03-18 12:36:54 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:36:54] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:36:54 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.846919963194781, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 1.14}
+2024-03-18 12:36:54 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:36:54] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 12:37:02 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:37:02 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:37:03 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:37:03 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:37:04 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.837221647876503, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 0.73}
+2024-03-18 12:37:04 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:37:04] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:37:05 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:37:05 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:37:05 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:37:06 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:37:08 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:37:09 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:37:09 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:37:10 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:37:10 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:37:10 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:37:10 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:37:12 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.8430511801323094, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 2.1}
+2024-03-18 12:37:12 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:37:12] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:37:13 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:37:13 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:37:13 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:37:13 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:37:14 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.844545101583199, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 0, 'y': 0, 'w': 480, 'h': 720, 'left_eye': None, 'right_eye': None}}, 'time': 0.73}
+2024-03-18 12:37:14 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:37:14] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:40:53 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:40:53 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:40:53 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:40:55 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:40:56 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:40:58 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:40:58 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:47:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:16 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:17 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:47:19 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:47:20 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:47:20 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:47:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:56 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:47:58 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:47:59 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:48:01 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:48:01 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:48:10 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:10 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:10 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:11 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:48:13 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:48:14 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:48:14 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:48:32 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:32 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:32 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:48:33 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:48:35 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:48:36 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:48:36 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:51:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:51:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:51:52 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:51:53 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:51:55 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:51:56 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:51:56 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:52:01 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:52:03 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 12:52:03 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 12:52:03 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:52:04 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:52:05 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:52:05 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:52:22 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-18 12:52:22 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:52:22 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:52:22 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:52:25 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.6512909380828411, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}}, 'time': 2.2}
+2024-03-18 12:52:25 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 12:52:25] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:52:27 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 12:52:27 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:52:27 ISTINFO:root:response: <Response [500]>
+2024-03-18 12:52:27 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:52:27] "[35m[1mPOST /deep_face_check HTTP/1.1[0m" 500 -
+2024-03-18 12:52:42 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:52:42 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:52:42 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:52:46 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:52:47 ISTINFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.120:5001
+2024-03-18 12:52:47 ISTINFO:werkzeug:[33mPress CTRL+C to quit[0m
+2024-03-18 12:52:47 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:52:49 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:52:50 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:52:50 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:52:51 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 12:52:51 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:52:51 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:52:52 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:52:54 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12965784154655158, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 71, 'y': 211, 'w': 293, 'h': 293, 'left_eye': (95, 111), 'right_eye': (206, 115)}}, 'time': 2.18}
+2024-03-18 12:52:54 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:52:54] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:54:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:54:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:54:19 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:54:21 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:54:22 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:54:24 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:54:24 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:55:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:02 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:04 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:55:05 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:55:07 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:55:07 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:55:14 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:14 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:14 ISTINFO:werkzeug: * Detected change in '/home/glasier-10/PycharmProjects/face_reco/app.py', reloading
+2024-03-18 12:55:16 ISTINFO:werkzeug: * Restarting with watchdog (inotify)
+2024-03-18 12:55:17 ISTINFO:numexpr.utils:NumExpr defaulting to 6 threads.
+2024-03-18 12:55:19 ISTWARNING:werkzeug: * Debugger is active!
+2024-03-18 12:55:19 ISTINFO:werkzeug: * Debugger PIN: 874-962-131
+2024-03-18 12:55:26 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 12:55:26 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:55:26 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:55:26 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:55:29 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12965784154655158, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 71, 'y': 211, 'w': 293, 'h': 293, 'left_eye': (95, 111), 'right_eye': (206, 115)}}, 'time': 2.15}
+2024-03-18 12:55:29 ISTINFO:root:result of deepface api true face: {'matched': True, 'message': 'Match Found!!', 'status': True, 'statusCode': 200, 'user_id': '65f43d0dd2af6bfbc23ce7b3', 'user': '65f43d0dd2af6bfbc23ce7b3'}
+2024-03-18 12:55:29 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:55:29] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:56:22 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-18 12:56:22 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:56:23 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:56:23 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:56:24 ISTINFO:root:result_recognition in deepface api : {'verified': False, 'distance': 0.6512909380828411, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 54, 'y': 206, 'w': 331, 'h': 331, 'left_eye': (107, 134), 'right_eye': (218, 135)}}, 'time': 0.76}
+2024-03-18 12:56:24 ISTINFO:root:result of deepface api false face: {'matched': False, 'message': 'not match with db image!!', 'status': False, 'statusCode': 400, 'user_id': 'Unknown!', 'user': 'Unknown!'}
+2024-03-18 12:56:24 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 12:56:24] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:56:34 ISTINFO:root:file of unknown image : <FileStorage: '1710329903722_faceData.jpg' ('image/jpeg')>
+2024-03-18 12:56:34 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:56:35 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:56:35 ISTINFO:root:file of unknown image : <FileStorage: 'test_ujjwal_1.png' ('image/png')>
+2024-03-18 12:56:35 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:56:35 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:56:35 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:56:35 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:56:36 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12965784154655158, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 71, 'y': 211, 'w': 293, 'h': 293, 'left_eye': (95, 111), 'right_eye': (206, 115)}}, 'time': 1.12}
+2024-03-18 12:56:36 ISTINFO:root:result of deepface api true face: {'matched': True, 'message': 'Match Found!!', 'status': True, 'statusCode': 200, 'user_id': '65f43d0dd2af6bfbc23ce7b3', 'user': '65f43d0dd2af6bfbc23ce7b3'}
+2024-03-18 12:56:36 ISTINFO:werkzeug:192.168.0.100 - - [18/Mar/2024 12:56:36] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:56:36 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.12965784154655158, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 71, 'y': 211, 'w': 293, 'h': 293, 'left_eye': (95, 111), 'right_eye': (206, 115)}}, 'time': 1.04}
+2024-03-18 12:56:36 ISTINFO:root:result of deepface api true face: {'matched': True, 'message': 'Match Found!!', 'status': True, 'statusCode': 200, 'user_id': '65f43d0dd2af6bfbc23ce7b3', 'user': '65f43d0dd2af6bfbc23ce7b3'}
+2024-03-18 12:56:36 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:56:36] "POST /deep_face_check HTTP/1.1" 200 -
+2024-03-18 12:58:31 ISTINFO:root:file of unknown image : <FileStorage: 'image' ('application/octet-stream')>
+2024-03-18 12:58:31 ISTINFO:root:user_id : 65f43d0dd2af6bfbc23ce7b3
+2024-03-18 12:58:31 ISTINFO:root:response: <Response [200]>
+2024-03-18 12:58:31 ISTINFO:root:face encodings length of known encoding : 128
+2024-03-18 12:58:32 ISTINFO:root:result_recognition in deepface api : {'verified': True, 'distance': 0.1588497130355323, 'threshold': 0.4, 'model': 'Facenet', 'detector_backend': 'opencv', 'similarity_metric': 'cosine', 'facial_areas': {'img1': {'x': 82, 'y': 208, 'w': 376, 'h': 376, 'left_eye': (117, 136), 'right_eye': (253, 162)}, 'img2': {'x': 109, 'y': 223, 'w': 299, 'h': 299, 'left_eye': (82, 119), 'right_eye': (193, 113)}}, 'time': 0.72}
+2024-03-18 12:58:32 ISTINFO:root:result of deepface api true face: {'matched': True, 'message': 'Match Found!!', 'status': True, 'statusCode': 200, 'user_id': '65f43d0dd2af6bfbc23ce7b3', 'user': '65f43d0dd2af6bfbc23ce7b3'}
+2024-03-18 12:58:32 ISTINFO:werkzeug:192.168.0.24 - - [18/Mar/2024 12:58:32] "POST /deep_face_check HTTP/1.1" 200 -
