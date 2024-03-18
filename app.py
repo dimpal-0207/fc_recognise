@@ -39,13 +39,17 @@ def index():
     return "<h3>welcome to the face api</h3>"
 
 
-def take_encodings_image(user_id):
+def take_encodings_image(user_id , environment="dev"):
 
     global known_face_encodings
 
     try:
+        if environment == 'prod':
+            api_url = f"http://13.126.129.218:7002/api/auth/user-profile-image/{user_id}"
+        else:
+            api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
         # Hit the API with the userid
-        api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
+        # api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
         response = requests.get(api_url)
         logging.info('response: %s', response)
         # Check the API response and perform actions accordingly
@@ -93,9 +97,13 @@ def recognize_face():
         logging.info('file of unknown image : %s', file)
 
         user_id = request.form.get('user_id')
-        print("-----userid", user_id)
         logging.info('user_id : %s', user_id)
-        take_encodings_image(user_id)
+
+        print("-----userid", user_id)
+
+        environment = request.form.get("environment")
+        print(environment)
+        take_encodings_image(user_id, environment=environment)
 
         unknown_image = face_recognition.load_image_file(file)
         # print("====>unknown image", unknown_image)
@@ -181,12 +189,12 @@ def deep_fc():
     # Your logic to handle the result
         if result_recognition['distance'] < custom_threshold:
             result_recognition['verified'] = True
-            result = {'matched': True, 'user_id': user_id, 'message': 'Match Found!!','user': user_id, 'status': 200}
+            result = {'matched': True, 'message': 'Match Found!!', "status": True,  'statusCode': 200, 'user_id': user_id, "user": user_id}
             print(result)
             return result
         else:
             result_recognition['verified'] = False
-            result = {'matched': False, 'user_id': "Unknown!", 'message': 'not match with db image!!', 'status': 400}
+            result = {'matched': False, 'message': 'not match with db image!!', "status": False,  'statusCode': 400, 'user_id': "Unknown!", "user": "Unknown!"}
             return result
 
     # Emit the result to the client
@@ -197,10 +205,6 @@ def deep_fc():
     except  Exception as e:
         print(f"error: {e}")
 
-    finally:
-        # Remove the temporary image files
-        os.remove(live_frame_path)
-        os.remove(known_image_path)
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5001)
