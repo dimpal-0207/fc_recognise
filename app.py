@@ -193,10 +193,12 @@ def deep_fc():
             result_recognition['verified'] = True
             result = {'matched': True, 'message': 'Match Found!!', "status": True,  'statusCode': 200, 'user_id': user_id, "user": user_id}
             print(result)
+            logging.info('result of True in deepface api : %s', result)
             return result
         else:
             result_recognition['verified'] = False
             result = {'matched': False, 'message': 'not match with db image!!', "status": False,  'statusCode': 400, 'user_id': "Unknown!", "user": "Unknown!"}
+            logging.info('result of false in deepface api : %s', result)
             return result
 
     # Emit the result to the client
@@ -205,7 +207,7 @@ def deep_fc():
     # Remove the temporary image file
 
     except  Exception as e:
-        print(f"error: {e}")
+        return jsonify({"statusCode": 500, "message": f"An error occurred: {str(e)}"})
 
 
 if __name__ == '__main__':
