@@ -39,20 +39,14 @@ def index():
     return "<h3>welcome to the face api</h3>"
 
 
-def take_encodings_image(user_id, environment="dev"):
+def take_encodings_image(user_id):
 
     global known_face_encodings
 
     try:
-        # Determine the URL based on the environment flag
-        if environment == 'prod':
-            api_url = f"http://13.126.129.218:7002/api/auth/user-profile-image/{user_id}"
-        else:
-            api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
         # Hit the API with the userid
-        # api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
+        api_url = f"http://13.126.129.218:6002/api/auth/user-profile-image/{user_id}"
         response = requests.get(api_url)
-        print("===response", response)
         logging.info('response: %s', response)
         # Check the API response and perform actions accordingly
         if response.status_code == 200:
@@ -100,7 +94,6 @@ def recognize_face():
 
         user_id = request.form.get('user_id')
         print("-----userid", user_id)
-
         logging.info('user_id : %s', user_id)
         take_encodings_image(user_id)
 
@@ -161,18 +154,16 @@ height = 480  # Set your desired height
 def deep_fc():
     file = request.files['image']
     if not file:
-        return jsonify({"status": False, "message": 'Please provide file image', "statusCode":400})
+        return jsonify({"status":400, "message": "Please provide image file!"})
     print("===>file", file)
     logging.info('file of unknown image : %s', file)
     user_id = request.form.get('user_id')
     print("-----userid", user_id)
-    environment = request.form.get("environment")
-    print(environment)
     if not user_id:
-        return jsonify({"status": False, "message": 'Please provide user_id', "statusCode":400 })
+        return jsonify({"status":400, "message": 'Please provide user_id'})
     logging.info('user_id : %s', user_id)
 
-    take_encodings_image(user_id, environment=environment)
+    take_encodings_image(user_id)
     try:
         image = cv2.imdecode(np.frombuffer(file.read(), np.uint8), cv2.IMREAD_COLOR)
         live_frame_path = f'images/file1_{user_id}.jpg'
@@ -190,14 +181,12 @@ def deep_fc():
     # Your logic to handle the result
         if result_recognition['distance'] < custom_threshold:
             result_recognition['verified'] = True
-            result = {'matched': True, 'message': 'Match Found!!', "status": True,  'statusCode': 200, 'user_id': user_id, "user": user_id}
+            result = {'matched': True, 'user_id': user_id, 'message': 'Match Found!!','user': user_id, 'status': 200}
             print(result)
-            logging.info('result of deepface api true face: %s', result)
             return result
         else:
             result_recognition['verified'] = False
-            result = {'matched': False, 'message': 'not match with db image!!', "status": False,  'statusCode': 400, 'user_id': "Unknown!", "user": "Unknown!"}
-            logging.info('result of deepface api false face: %s', result)
+            result = {'matched': False, 'user_id': "Unknown!", 'message': 'not match with db image!!', 'status': 400}
             return result
 
     # Emit the result to the client
@@ -206,9 +195,12 @@ def deep_fc():
     # Remove the temporary image file
 
     except  Exception as e:
-        return jsonify({"statusCode": 500, "message": f"An error occurred: {str(e)}"})
+        print(f"error: {e}")
 
-
+    finally:
+        # Remove the temporary image files
+        os.remove(live_frame_path)
+        os.remove(known_image_path)
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5001)
