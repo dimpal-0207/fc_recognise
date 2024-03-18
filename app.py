@@ -171,7 +171,9 @@ def deep_fc():
         return jsonify({"status":400, "message": 'Please provide user_id'})
     logging.info('user_id : %s', user_id)
 
-    take_encodings_image(user_id)
+    environment = request.form.get("environment")
+    print(environment)
+    take_encodings_image(user_id, environment=environment)
     try:
         image = cv2.imdecode(np.frombuffer(file.read(), np.uint8), cv2.IMREAD_COLOR)
         live_frame_path = f'images/file1_{user_id}.jpg'
